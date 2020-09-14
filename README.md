@@ -77,8 +77,10 @@ This command allow the station to reset Shimmer and get the information of Shimm
     Note: the *Config Time* is just the time indicating when you label your data. It doesn't matter a lot.
     <img src=/images/marker-1.png>
     + Click "Read Data"
-    + **Make sure you close the CSV data file you input before you use MarkerParser.exe** to label data. Otherwise, you will see this error
+    + **Make sure you close the CSV data file you input before you use MarkerParser.exe** to label data. 
+    Otherwise, you will see this error
     <img src=/images/marker-2.png width=300 height=300>
+
     + Add some labels about your meal like this figure and then Click "Write Events"
     <img src=/images/marker-3.png>
     + Check the generated txt file in the directory shown in the bar "Output File"
