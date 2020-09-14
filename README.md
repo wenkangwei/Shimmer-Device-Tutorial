@@ -1,5 +1,5 @@
 ## Introduction
-This **quick** tutorial will walk through how to setup the Shimmer watch-like device to collect time series data of our wrist motion and visualize it using some visualization software, called EatMon.ext.
+This **quick** tutorial will walk through how to setup the Shimmer watch-like device to collect time series data of our wrist motion and visualize it using a visualization software, called EatMon.ext.
 
 ## Outline
 This tutorial will cover the following sections:
