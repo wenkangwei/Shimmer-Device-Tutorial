@@ -55,12 +55,12 @@ Once you open this software after connecting the device to your laptop, you will
 + **If your Battery Status show 0.0%:**
 **right-click the green cell of your device ->  select Reset -> check the status again.**
 This command allow the station to reset Shimmer and get the information of Shimmer.
-<img src=/images/consenssys-reset.png>
+<img src=/images/consenssys-reset.png width=500 height=300>
 
 + **To Read your data**
     - Click **IMPORT** to load data from Shimmer to Consensys software
     Then you will see a window pop up 
-    <img src=//images/import.png>
+    <img src=//images/import.png width=500 height=300>
     Just click next or OK for the following pop-up window to import data to the session folder.
     - **Select the data folder** you want to import in the left window and then **Click Right Arrow button**. Finally **Click "Next"**
     <img src=/images/import-2.png>
@@ -68,23 +68,27 @@ This command allow the station to reset Shimmer and get the information of Shimm
     - Go to  MANAGE DATA tag
     - Export data to **your own folder**.
     You need to **select the data folder** you want to your own folder, like this figure. Then **Click "EXPORT"**
-    <img src=/images/export.png>
+    <img src=/images/export.png width=500 height=300>
 
 
 2. **Label your Data** 
     + Check if the data is exported to your selected folder correctly. The generated folder should contain csv data files. 
     + Open MarkerParser.exe and Click "Select input File" to select the CSV file. 
     Note: the *Config Time* is just the time indicating when you label your data. It doesn't matter a lot.
-    <img src=/images/marker-1.png>
+    <img src=/images/marker-1.png width=600 height=300>
     + Click "Read Data"
     + **Make sure you close the CSV data file you input before you use MarkerParser.exe** to label data. 
     Otherwise, you will see this error
+
     <img src=/images/marker-2.png width=300 height=300>
 
     + Add some labels about your meal like this figure and then Click "Write Events"
-    <img src=/images/marker-3.png>
+    <img src=/images/marker-3.png width=300 height=300>
+
     + Check the generated txt file in the directory shown in the bar "Output File"
+
     + Change the file name "Shimmer-Data.txt" to "Shimmer-Data.shm" so that we can use EatMon.exe to load and visualize it.
+
 3. **Data Visualization**
     + Install EatMon.exe and download its dependencies. **Put all files into the same folder**
     + After you change the file name to .shm file, open your Eatmon.exe
@@ -92,7 +96,7 @@ This command allow the station to reset Shimmer and get the information of Shimm
     + Zoom in the data by pressing "+" button, since when not zooming in your data, you may be unable to see your data.
     + You can also select which data you want to view by  selecting items in "View" tab.
     Here I just show the raw data I collected
-    <img src=/images/EatMon-1.png>
+    <img src=/images/EatMon-1.png width=400 height=300>
 
     + For more operations about using this software, Click "Help"
     
