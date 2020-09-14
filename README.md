@@ -61,6 +61,7 @@ This command allow the station to reset Shimmer and get the information of Shimm
     - Click **IMPORT** to load data from Shimmer to Consensys software
     Then you will see a window pop up 
     <img src=//images/import.png width=500 height=300>
+
     Just click next or OK for the following pop-up window to import data to the session folder.
     - **Select the data folder** you want to import in the left window and then **Click Right Arrow button**. Finally **Click "Next"**
     <img src=/images/import-2.png>
@@ -76,14 +77,14 @@ This command allow the station to reset Shimmer and get the information of Shimm
     + Open MarkerParser.exe and Click "Select input File" to select the CSV file. 
     Note: the *Config Time* is just the time indicating when you label your data. It doesn't matter a lot.
     <img src=/images/marker-1.png width=600 height=300>
+
     + Click "Read Data"
     + **Make sure you close the CSV data file you input before you use MarkerParser.exe** to label data. 
-    Otherwise, you will see this error
-
+    Otherwise, you will see this error:
     <img src=/images/marker-2.png width=300 height=300>
 
     + Add some labels about your meal like this figure and then Click "Write Events"
-    <img src=/images/marker-3.png width=300 height=300>
+    <img src=/images/marker-3.png width=600 height=300>
 
     + Check the generated txt file in the directory shown in the bar "Output File"
 
