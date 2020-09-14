@@ -60,7 +60,7 @@ This command allow the station to reset Shimmer and get the information of Shimm
 + **To Read your data**
     - Click **IMPORT** to load data from Shimmer to Consensys software
     Then you will see a window pop up 
-    <img src=//images/import.png width=500 height=300>
+    <img src=/images/import.png width=500 height=300>
 
     Just click next or OK for the following pop-up window to import data to the session folder.
     - **Select the data folder** you want to import in the left window and then **Click Right Arrow button**. Finally **Click "Next"**
@@ -97,7 +97,7 @@ This command allow the station to reset Shimmer and get the information of Shimm
     + Zoom in the data by pressing "+" button, since when not zooming in your data, you may be unable to see your data.
     + You can also select which data you want to view by  selecting items in "View" tab.
     Here I just show the raw data I collected
-    <img src=/images/EatMon-1.png width=400 height=300>
+    <img src=/images/EatMon-1.png width=500 height=300>
 
     + For more operations about using this software, Click "Help"
     
