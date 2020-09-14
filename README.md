@@ -46,7 +46,7 @@ You will need to download the following softwares from this
 After charging your device and Battery is more than 90%, it is usually safe to plug it out and record data.
 **Steps to record data:**
     + **Start Recording:** Press the big orange button for about 5 second until LED B turn green. 
-    **Note**: Since the device's button is not sensitive, it may not turn green even you press it for a long time. In this case, you may power it off and then turn it on again. Then press the orange button using your nail.
+    **Note: Since the device's button is not sensitive, it may not turn green even you press it for a long time. In this case, you may power it off and then turn it on again. Then press the orange button using your nail.**
     + **During recording:** the LED B will flash with blue light about every 10 seconds. 
     + **Stop recording, not turn off your device:** Press the orange button for about 5 seconds again until the green light flashs again
     + **After recording**: plug the Shimmer back to the charging station and use hte Consensys to read the data. 
