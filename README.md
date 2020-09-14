@@ -7,8 +7,10 @@ This tutorial will cover the following sections:
 2. Hardware setup
 3. Software setup. 
 To copy the data from the device into our laptop, we need a software of Shimmer Device, called __Consensys__. It helps us get data in the csv format, recorded from the device
-4. Data Transform
-transform csv data to data of shm format for visualization, using a software called __MakerParser.exe__
+
+4. Label Data
+We will use a software called __MakerParser.exe__ to add some labels to the time series data
+
 5. Data Visualization with software called __EatMon.exe__
 ## Requirements
 ### Hardware 
@@ -83,7 +85,7 @@ This command allow the station to reset Shimmer and get the information of Shimm
     Otherwise, you will see this error:
     <img src=/images/marker-2.png width=300 height=300>
 
-    + Add some labels about your meal like this figure and then Click "Write Events"
+    + Add some labels about your meal like this figure and give some information about when you take this meal, what meal you take, and so on, and then Click "Write Events"
     <img src=/images/marker-3.png width=600 height=300>
 
     + Check the generated txt file in the directory shown in the bar "Output File"
