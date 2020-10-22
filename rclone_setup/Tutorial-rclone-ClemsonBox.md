@@ -120,7 +120,8 @@ This is the tutorial to use rclone to download data from your Cloud Storage to y
     ~~~
         rclone authorize "box"
     ~~~
-    + Authorize rclone to access your Clemson Box by logining into your clemson account
+    + Authorize rclone to access your Clemson Box by logining into your clemson account.  One thing to Note is that when authorizing your Clemson Box, you need to login your clemsonbox in a pop-up window. The account is **xxxx@clemson.edu**, no "g." and the password is your clemson account password
+
     + Copy the tokens shown up in the terminal in your local machine back to your rclone in your remote machine (Palmetto). The token will be something like this
     ~~~
     $ ./rclone.exe authorize "box"
@@ -132,6 +133,7 @@ This is the tutorial to use rclone to download data from your Cloud Storage to y
     {"access_token":"T9xxxxxxxxxxTN","token_type":"bearer","refresh_token":"0xxxxxxxxxxxxxxxxu","expiry":"2020-10-22T13:35:43.3509811-04:00"}
     <---End paste
     ~~~
+
 
     Copy Your token, something like this,  back to  your remote machine
     ~~~
