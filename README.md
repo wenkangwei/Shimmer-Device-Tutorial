@@ -1,5 +1,5 @@
 ## Introduction
-This **quick** tutorial will walk through how to setup the Shimmer watch-like device to collect time series data of our wrist motion and visualize it using some visualization software, called EatMon.ext.
+This **quick** tutorial will walk through how to setup the Shimmer watch-like device to collect time series data of our wrist motion and visualize it using a visualization software, called EatMon.ext.
 
 ## Outline
 This tutorial will cover the following sections:
@@ -7,8 +7,10 @@ This tutorial will cover the following sections:
 2. Hardware setup
 3. Software setup. 
 To copy the data from the device into our laptop, we need a software of Shimmer Device, called __Consensys__. It helps us get data in the csv format, recorded from the device
-4. Data Transform
-transform csv data to data of shm format for visualization, using a software called __MakerParser.exe__
+
+4. Label Data
+We will use a software called __MakerParser.exe__ to add some labels to the time series data
+
 5. Data Visualization with software called __EatMon.exe__
 ## Requirements
 ### Hardware 
@@ -44,7 +46,7 @@ You will need to download the following softwares from this
 After charging your device and Battery is more than 90%, it is usually safe to plug it out and record data.
 **Steps to record data:**
     + **Start Recording:** Press the big orange button for about 5 second until LED B turn green. 
-    **Note**: Since the device's button is not sensitive, it may not turn green even you press it for a long time. In this case, you may power it off and then turn it on again. Then press the orange button using your nail.
+    **Note: Since the device's button is not sensitive, it may not turn green even you press it for a long time. In this case, you may power it off and then turn it on again. Then press the orange button using your nail.**
     + **During recording:** the LED B will flash with blue light about every 10 seconds. 
     + **Stop recording, not turn off your device:** Press the orange button for about 5 seconds again until the green light flashs again
     + **After recording**: plug the Shimmer back to the charging station and use hte Consensys to read the data. 
@@ -83,7 +85,7 @@ This command allow the station to reset Shimmer and get the information of Shimm
     Otherwise, you will see this error:
     <img src=/images/marker-2.png width=300 height=300>
 
-    + Add some labels about your meal like this figure and then Click "Write Events"
+    + Add some labels about your meal like this figure and give some information about when you take this meal, what meal you take, and so on, and then Click "Write Events"
     <img src=/images/marker-3.png width=600 height=300>
 
     + Check the generated txt file in the directory shown in the bar "Output File"
